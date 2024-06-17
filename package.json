@@ -1,0 +1,31 @@
+{
+	"name": "ep3-nodejs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "8.57.0",
+		"eslint-config-prettier": "9.1.0",
+		"nodemon": "3.1.3",
+		"cors": "2.8.5",
+		"prettier": "3.3.2"
+	},
+	"dependencies": {
+		"bcryptjs": "2.4.3",
+		"body-parser": "1.20.2",
+		"compression": "1.7.4",
+		"cookie-parser": "1.4.6",
+		"cors": "2.8.5",
+		"dotenv": "16.4.5",
+		"express": "4.19.2",
+		"mongoose": "8.4.1",
+		"morgan": "1.10.0"
+	}
+}
