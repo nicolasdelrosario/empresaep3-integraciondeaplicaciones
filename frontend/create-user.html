@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Empresa EP3 - Crear Usuario</title>
+		<!-- Font Family - Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="./styles/index.css" />
+		<!-- JS -->
+		<script src="./javascript/main.js" type="module" defer></script>
+		<script src="./javascript/createUser.js" type="module" defer></script>
+	</head>
+	<body>
+		<main class="flex">
+			<div class="nav__container">
+				<nav class="nav">
+					<a href="./main.html">
+						<h3 class="nav__title">PetCare</h3>
+					</a>
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="./main.html">Usuario</a>
+						</li>
+						<li class="nav__item">
+							<a href="./create-user.html">Crear Usuario</a>
+						</li>
+						<li class="nav__item">
+							<a href="./index.html">Salir</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="min--100 grid place--center">
+				<h1 class="section__title mb-8">Crear Usuario</h1>
+				<div></div>
+				<form id="form" class="flex flex--column">
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Ingresa el nombre"
+							class="form__input-lg"
+						/>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Ingresa el email"
+							class="form__input-lg"
+						/>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Ingresa la contraseña"
+							class="form__input-lg"
+							
+						/>
+						<button class="button mt-1" type="submit">Crear Usuario</button>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Empresa EP3</title>
+		<!-- Font Family - Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="./styles/index.css" />
+		<!-- JS -->
+		<script src="./javascript/main.js" type="module" defer></script>
+		<script src="./javascript/loginUser.js" type="module" defer></script>
+	</head>
+	<body>
+		<main class="min--100 grid place--center">
+			<h1 class="section__title">Empresa EP3</h1>
+			<p class="section__subtitle">Ingresa tu cuenta</p>
+			<div class="container">
+				<form id="form" class="flex flex--column">
+					<input
+						id="email"
+						class="form__input-lg"
+						type="text"
+						placeholder="Email"
+					/>
+					<input
+						id="password"
+						class="form__input-lg"
+						type="text"
+						placeholder="Contraseña"
+					/>
+
+					<button type="submit" class="button mt-1">Iniciar sesión</button>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
